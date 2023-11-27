@@ -1,0 +1,80 @@
+body{
+	font-family: sans-serif;
+	background: url('adminque.jpeg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    /* Menambahkan background-color */
+    background-color: #f0f0f0; /* Ganti dengan warna yang diinginkan */
+    margin: 0; /* Pastikan margin body diatur ke 0 */
+}
+ 
+h1 {
+    text-align: center;
+    /* Memberikan ketebalan font */
+    font-weight: bold;
+    /* Mengatur warna teks menjadi putih */
+    color: white;
+}
+
+ 
+.tulisan_login{
+	text-align: center;
+	margin-top: -20px;
+	/*membuat semua huruf menjadi kapital*/
+	 color: rgb(14, 13, 13);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255,2);
+    border-radius: 20px;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 60px 20px;
+    border-radius: 20px;
+    
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+    border-radius: 20px;
+	  
+}
+ 
+.tombol_login{
+	background: #2aa7e2;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+ 
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
